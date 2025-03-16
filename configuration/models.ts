@@ -12,7 +12,7 @@ export const HOSTILE_RESPONSE_MODEL: string = "gpt-4o-mini";
 export const HOSTILE_RESPONSE_TEMPERATURE: number = 0.7;
 
 export const QUESTION_RESPONSE_PROVIDER: ProviderName = "openai";
-export const QUESTION_RESPONSE_MODEL: string = "ft:gpt-4o-2024-08-06:personal:abletonbot2:B9l2VsqH";
+export const QUESTION_RESPONSE_MODEL: string = "gpt-4o";
 export const QUESTION_RESPONSE_TEMPERATURE: number = 0.7;
 
 export const HYDE_MODEL: string = "gpt-4o-mini";
