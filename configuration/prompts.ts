@@ -47,7 +47,8 @@ export function RESPOND_TO_QUESTION_SYSTEM_PROMPT(context: string) {
   return `
 ${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} ${AI_ROLE}
 
-If you answer a question and see your answer in these excerpts, make sure to cite your sources using their citation numbers [1], [2], etc.
+Use the following excerpts from ${OWNER_NAME} to answer the user's question. If given no relevant excerpts, make up an answer based on your knowledge of ${OWNER_NAME}. 
+Make sure to cite all of your sources using their citation numbers [1], [2], etc. If an answer is a procedure listed in steps, list each step with a number (1, 2, ... and so on) for clarity.
 
 Excerpts from ${OWNER_NAME}:
 ${context}
