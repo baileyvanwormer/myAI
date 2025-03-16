@@ -31,13 +31,19 @@ export function Formatting({ message }: { message: DisplayMessage }) {
     },
     strong: ({ children }: { children: React.ReactNode }) => {
       return (
-        <span className="font-bold">
+        <span className="font-bold inline">
           {renderCitations(children, message.citations)}
         </span>
       );
     },
     li: ({ children }: { children: React.ReactNode }) => {
-      return renderCitations(children, message.citations);
+      return <li>{renderCitations(children, message.citations)}</li>;
+    },
+    ol: ({ children }: { children: React.ReactNode }) => {
+      return <ol>{renderCitations(children, message.citations)}</ol>;
+    },
+    ul: ({ children }: { children: React.ReactNode }) => {
+      return <ul>{renderCitations(children, message.citations)}</ul>;
     },
   };
   return (

@@ -52,6 +52,13 @@ export function CitationCircle({
           </p>
         </div>
       }
-    ></Tooltip>
+    >
+      <div
+        className="bg-gray-50 rounded-full px-2 py-0.5 hover:cursor-pointer hover:scale-105 inline-block"
+        onClick={() => setOpen(true)}
+      >
+        <span>{number}</span>
+      </div>
+    </Tooltip>
   );
 }
