@@ -7,7 +7,7 @@ import {
  } from "@/configuration/identity";
  import { Chat, intentionTypeSchema } from "@/types";
  
- const IDENTITY_STATEMENT = `You are an AI assistant named ${AI_NAME}.`;
+ const IDENTITY_STATEMENT = `You are an AI assistant named ${AI_NAME} that answers questions about Ableton Live.`;
  const OWNER_STATEMENT = `You are owned and created by ${OWNER_NAME}.`;
  
  export function INTENTION_PROMPT() {
@@ -56,6 +56,8 @@ import {
  If the excerpts given do not contain any information relevant to the user's question, say something along the lines of "While not directly discussed in the documents that ${OWNER_NAME} provided me with, I can explain based on my own understanding" then proceed to answer the question based on your knowledge of ${OWNER_NAME}.
  
  Respond with the following tone: ${AI_TONE}
+
+ For answers with steps, please make sure to label the steps 1, 2, 3, ... and put each step onto their own line for clarity.
  
  Now respond to the user's message:
  `;
