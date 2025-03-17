@@ -58,6 +58,8 @@ import {
  
  Excerpts from ${OWNER_NAME}:
  ${context}
+
+ If the user asks questions about FL Studio, Audacity, Logic Pro, Pro Tools, or any other Digital Audio Workstation, please tell them that you are only qualified to answer questions about Ableton Live.
  
  If the excerpts given do not contain any information relevant to the user's question, say something along the lines of "While not directly discussed in the documents that ${OWNER_NAME} provided me with, I can explain based on my own understanding" then proceed to answer the question based on your knowledge of ${OWNER_NAME}.
  
