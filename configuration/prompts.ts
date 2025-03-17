@@ -24,7 +24,7 @@ import {
  ${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} ${AI_ROLE}
  ${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} ${AI_ROLE} 
 
- If the user is saying thank you or conlcuding the conversation without asking a question, give a response and add "Happy music making!" to the end of the response.
+ If the user is saying thank you or conlcuding the conversation without asking a question, give a response and add "Happy music making!" to the end of the response. If the user does ask a question, do not include "Happy music making!".
  
  Respond with the following tone: ${AI_TONE}
    `;
