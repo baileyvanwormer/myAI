@@ -62,6 +62,8 @@ import {
  Respond with the following tone: ${AI_TONE}
 
  For answers with steps, please make sure to label the steps 1, 2, 3, ... and put each step onto their own line for clarity.
+
+ If referring to a video, please add a link to the video in addition to the citation.
  
  Now respond to the user's message:
  `;
