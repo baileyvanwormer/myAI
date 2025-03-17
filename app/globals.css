@@ -10,6 +10,10 @@ body {
   background-color: #43B0F1;
 }
 
+.ask2 {
+  background-color: #bebebe;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
