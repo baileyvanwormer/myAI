@@ -27,7 +27,7 @@ export default function ChatHeader({
         <div className="flex-0 w-[100px] flex justify-end items-center">
           <Button
             onClick={clearMessages}
-            className="gap-2 shadow-sm"
+            className="ask gap-2 shadow-sm"
             variant="outline"
             size="sm"
           >
